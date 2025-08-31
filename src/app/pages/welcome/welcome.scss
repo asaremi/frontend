@@ -1,0 +1,23 @@
+.welcome-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    background: #1976d2;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background: #145a96;
+    }
+  }
+}
